@@ -19,6 +19,7 @@ type Electronic struct {
 func (b *Book) ShippingCost() int {
 	return 5 + b.desi*2
 }
+
 func (e *Electronic) ShippingCost() int {
 	return 10 + e.desi*3
 }
